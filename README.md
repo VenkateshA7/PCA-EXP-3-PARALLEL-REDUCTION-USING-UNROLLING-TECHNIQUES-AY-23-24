@@ -50,6 +50,7 @@ Memory Deallocation
 28.	Return from the main function.
 
 ## PROGRAM:
+```
 !pip install git+https://github.com/andreinechaev/nvcc4jupyter.git
 %load_ext nvcc4jupyter
 
@@ -375,6 +376,7 @@ int main(int argc, char **argv)
     if(!bResult) printf("Test failed!\n");
 
     return EXIT_SUCCESS;
+```
 }
 
 ## OUTPUT:
